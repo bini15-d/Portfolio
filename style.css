@@ -175,3 +175,26 @@ body {
     padding: 50px 25px;
   }
 }
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+}
+
+body.dark-mode .navbar {
+  background-color: #16213e;
+}
+
+body.dark-mode .project-card,
+body.dark-mode .skills-list li {
+  background-color: #16213e;
+  color: #e6e6e6;
+}
+
+body.dark-mode .section h2 {
+  color: #e6e6e6;
+}
+
+body.dark-mode .section p {
+  color: #b0b0c0;
+}
